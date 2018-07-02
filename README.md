@@ -1,5 +1,9 @@
 # JGalop
-Jeu de petit chevaux en Java
+Jeu de petit chevaux en Java.
+
+Projet vite-fait pour le début des vacances !
+
+Reprend les bases du projet île interdite.
 
 ## ChangeLog de la dernière version (v1.0) : 
 ### Version Stable
