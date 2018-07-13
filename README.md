@@ -5,12 +5,29 @@ Projet vite-fait pour le début des vacances !
 
 Reprend les bases du projet île interdite.
 
-## ChangeLog de la dernière version (v1.0) : 
+## Compilation et lancement :
+javac -encoding UTF8 *.java
+
+java Main
+
+## ChangeLog de la dernière version (v2.0) : 
 ### Version Stable
-### Build 180630.2 :
-- Agrandissement du pion s'il est seul sur une case.
-- Correction de la position des numéros des pions.
-- Ajout d'une condition pour supporter moins de 4 joueurs.
-- Ajout de l'affichage des positions podium.
-- Message de fin.
-- Correction des méthodes victoire().
+### Build 180713.1 :
+- Amélioration des inscriptions console.
+- Ajout de la demande du nombre de joueur.
+- Ajout de la demande des noms des joueurs.
+- Ajout d'inscriptions dans le dessin du plateau (méthode drawInfos() qui est une adaptation et une amélioration de la méthode drawLigneInfo() du projet Ile Interdite).
+
+## ChangeLog de la version 1.1 :
+### Version SuperStable
+### Build 180702.1 :
+- Ajout de l'affichage de la sélection du pion.
+- Correction définitive de la position des chiffres sur les pions.
+
+### Build 180703.1 :
+- Correction du positionnement les positions podium.
+- Conversion des descriptions en convention javadoc.
+
+### Build 180705.1 :
+- Ajout des protections dans les entrées de l'utilisateur.
+- Correction au niveau les scanner int.
