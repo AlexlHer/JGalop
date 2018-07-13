@@ -1,12 +1,12 @@
-// -----------------------------
-// JGalop
-// Par : Alexandre l'Heritier
-// -----------------------------
-// Classe Main
-// -----------------------------
-
+/**
+ * Main
+ *
+ * @author Alexandre l'Heritier
+ * @version 2.0
+ */
 public class Main {
 	public static void main(String[] args){
+		System.out.println("-------------------------\nJGalop\nPar Alexandre l'Heritier\n-------------------------");
 		Jeu test = new Jeu();
 		test.play();
 		return;
@@ -17,6 +17,28 @@ public class Main {
 /*
 Changelog :
 
+v2.0 (build 180713.1) :
+- Amélioration des inscriptions console.
+- Ajout de la demande du nombre de joueur.
+- Ajout de la demande des noms des joueurs.
+- Ajout d'inscriptions dans le dessin du plateau (méthode drawInfos() qui
+  est une adaptation et une amélioration de la méthode drawLigneInfo() du
+  projet Ile Interdite).
+
+
+v1.1 (build 180302.1) :
+- Ajout de l'affichage de la sélection du pion.
+- Correction définitive de la position des chiffres sur les pions.
+
+(build 180303.1) :
+- Correction du positionnement les positions podium.
+- Conversion des descriptions en convention javadoc.
+
+(build 180718.1) :
+- Ajout des protections dans les entrées de l'utilisateur.
+- Correction au niveau les scanner int.
+
+
 v1.0 (build 180630.2) :
 Version Stable
 - Agrandissement du pion s'il est seul sur une case.
@@ -25,6 +47,7 @@ Version Stable
 - Ajout de l'affichage des positions podium.
 - Message de fin.
 - Correction des méthodes victoire().
+- Projet renommé en JGalop
 
 Versions Beta :
 v0.6 (build 180630.1) :
